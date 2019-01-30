@@ -15,6 +15,26 @@ public class Student {
     private String name;
 
     private String email;
+    private String phone;
+
+    /**
+     * Get the value of phone
+     *
+     * @return the value of phone
+     */
+    public String getPhone() {
+        return phone;
+    }
+
+    /**
+     * Set the value of phone
+     *
+     * @param phone new value of phone
+     */
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
 
     /**
      * Get the value of email
